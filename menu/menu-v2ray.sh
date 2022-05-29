@@ -10,7 +10,7 @@ color3='\e[0m'
 clear
 IP=$(wget -qO- ipinfo.io/ip);
 echo -e "           ═══[V2RAY CORE MENU]═══        "
-echo -e "           \e[32m═════════════════════════\e[m      " 
+echo -e "           \e[32m═════════════════════════\e[m      "
 echo -e""
 echo -e "${color1}1${color3}.$bd Create Account Vmess Websocket (${color2}addv2ray${color3})"
 echo -e "${color1}2${color3}.$bd Create Account Vless Websocket (${color2}addv2ray${color3})"

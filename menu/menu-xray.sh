@@ -17,7 +17,7 @@ echo -e "${color1}2${color3}.$bd Create Account Vless TCP (${color2}addxray${col
 echo -e "${color1}3${color3}.$bd Create Account Trojan (${color2}addxray${color3})"
 echo -e "${color1}4${color3}.$bd Create Account Xtls (${color2}addxray${color3})"
 echo -e "${color1}5${color3}.$bd Create Account GRPC (${color2}addxray${color3})"
-echo -e "-----------------------------------------------------------------------------------"
+echo -e "-----------------------------------------------------------------------------------" |
 echo -e "${color1}6${color3}.$bd Delete Account Vmess TCP (${color2}delray${color3})"
 echo -e "${color1}7${color3}.$bd Delete Account Vless TCP (${color2}delxray${color3})"
 echo -e "${color1}8${color3}.$bd Delete Account Trojan (${color2}delxray${color3})"
