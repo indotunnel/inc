@@ -70,5 +70,5 @@ Password   : $VPN_PASSWORD
 Created    : $hariini
 Expired    : $exp
 ━━━━━━━━━━━━━━━━━━━━━
-Script By mdxcloud
+Script By geovpn
 EOF

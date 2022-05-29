@@ -1,5 +1,5 @@
 #!/bin/bash
-# My Telegram : https://t.me/mdxcloud
+# My Telegram : https://t.me/joysmark
 # ==========================================
 # Color
 RED='\033[0;31m'
@@ -104,4 +104,4 @@ echo -e "Link TLS    : $linkss1"
 echo -e "========================="
 echo -e "Link No TLS : $linkss2"
 echo -e "========================="
-echo -e "Script By mdxcloud"
+echo -e "Script By joysmark"

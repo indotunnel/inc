@@ -28,7 +28,7 @@ exp=1
 uuid=$(cat /proc/sys/kernel/random/uuid)
 read -p "Expired (days): " masaaktif
 read -p "SNI (bug) : " sni
-read -p "Subdomain (EXP : mdxcloud.net. / Press Enter If Only Using Hosts) : " sub
+read -p "Subdomain (EXP : manternet.xyz. / Press Enter If Only Using Hosts) : " sub
 dom=$sub$domain
 exp=`date -d "$masaaktif days" +"%Y-%m-%d"`
 sed -i '/#tls$/a\### '"$user $exp"'\

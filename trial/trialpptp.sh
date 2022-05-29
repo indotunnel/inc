@@ -58,7 +58,7 @@ PERMISSION () {
     else
     res="Permission Denied!"
     fi
-    #BURIQ
+    BURIQ
 }
 red='\e[1;31m'
 green='\e[0;32m'
@@ -116,5 +116,5 @@ Password  : $VPN_PASSWORD
 Created   : $hariini
 Expired   : $exp
 ━━━━━━━━━━━━━━━━━━━━━
-Script By mdxcloud
+Script By geovpn
 EOF

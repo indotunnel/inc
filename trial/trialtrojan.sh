@@ -23,7 +23,7 @@ exp=1
 domain=$(cat /etc/v2ray/domain)
 read -p "Expired (days): " masaaktif
 read -p "SNI (BUG)     : " sni
-read -p "Subdomain (EXP : mdxcloud.net. / Press Enter If Only Using Hosts) : " sub
+read -p "Subdomain (EXP : manternet.xyz. / Press Enter If Only Using Hosts) : " sub
 dom=$sub$domain
 sed -i '/"'""$uuid""'"$/a\,"'""$user""'"' /etc/trojan/config.json
 exp=`date -d "$masaaktif days" +"%Y-%m-%d"`
