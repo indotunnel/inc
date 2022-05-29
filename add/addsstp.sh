@@ -65,7 +65,18 @@ green='\e[0;32m'
 NC='\e[0m'
 green() { echo -e "\\033[32;1m${*}\\033[0m"; }
 red() { echo -e "\\033[31;1m${*}\\033[0m"; }
-
+PERMISSION
+if [ -f /home/needupdate ]; then
+red "Your script need to update first !"
+exit 0
+elif [ "$res" = "Permission Accepted..." ]; then
+green "Permission Accepted !"
+else
+red "Permission Denied !"
+rm setup.sh > /dev/null 2>&1
+sleep 10
+exit 0
+fi
 clear
 source /var/lib/geovpn/ipvps.conf
 if [[ "$IP2" = "" ]]; then
@@ -108,5 +119,5 @@ Cert      : http://$IP:89/server.crt
 Created   : $hariini
 Expired   : $exp
 ============================
-Script By Mardhex
+Script By geovpn
 EOF

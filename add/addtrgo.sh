@@ -35,7 +35,7 @@ until [[ $user =~ ^[a-zA-Z0-9_]+$ && ${user_EXISTS} == '0' ]]; do
 	done
 read -p "Expired (Days) : " masaaktif
 read -p "SNI (bug) : " sni
-read -p "Subdomain (EXP : mdxcloud.net. / Press Enter If Only Using Hosts) : " sub
+read -p "Subdomain (EXP : manternet.xyz. / Press Enter If Only Using Hosts) : " sub
 dom=$sub$domain
 sed -i '/"'""$uuid""'"$/a\,"'""$user""'"' /etc/trojan-go/config.json
 exp=`date -d "$masaaktif days" +"%Y-%m-%d"`
@@ -59,4 +59,4 @@ echo -e "Expired    : $exp"
 echo -e "========================="
 echo -e "Link TrGo  : ${link}"
 echo -e "========================="
-echo -e "Script By Mardhex"
+echo -e "Script By Manternet"

@@ -79,5 +79,5 @@ Password   : $VPN_PASSWORD
 Created    : $hariini
 Expired    : $exp
 ━━━━━━━━━━━━━━━━━━━━━
-Script By Mardhex
+Script By geovpn
 EOF

@@ -52,8 +52,8 @@ fi
 
 PERMISSION () {
     MYIP=$(curl -sS ipv4.icanhazip.com)
-    $IZIN=$(curl -sS https://raw.githubusercontent.com/geovpn/perizinan/main/main/allow | awk '{print $4}' | grep $MYIP )
-    #if [ "$MYIP" = "$IZIN" ]; then
+    IZIN=$(curl -sS https://raw.githubusercontent.com/geovpn/perizinan/main/main/allow | awk '{print $4}' | grep $MYIP )
+    if [ "$MYIP" = "$IZIN" ]; then
     Bloman
     else
     res="Permission Denied!"
@@ -72,7 +72,7 @@ exit 0
 elif [ "$res" = "Permission Accepted..." ]; then
 green "Permission Accepted !"
 else
-#red "Permission Denied !"
+red "Permission Denied !"
 rm setup.sh > /dev/null 2>&1
 sleep 10
 exit 0
@@ -125,5 +125,5 @@ Password  : $VPN_PASSWORD
 Created   : $hariini
 Expired   : $exp
 ━━━━━━━━━━━━━━━━━━━━━
-Script By Mardhex
+Script By geovpn
 EOF
