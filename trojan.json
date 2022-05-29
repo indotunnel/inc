@@ -1,0 +1,37 @@
+{
+		"listen": "/dev/shm/tgrpc.sock",
+    	 	"protocol": "trojan",
+     	  	"settings": {
+                "clients": [
+                    {
+                        "password": "dev"
+                    }
+                ]
+     	  	},
+     	  	"streamSettings": {
+                "network": "grpc",
+       			"security": "none",
+       			"grpcSettings": {
+                    "serviceName": "GunService"
+        		}
+      		},
+      		"sniffing": {
+        		"enabled": true,
+        		"destOverride": [
+         		 "http",
+          		 "tls"
+                    ]
+                    "certificates": [
+                        {
+                            "certificateFile": "/etc/xray/xray.crt",
+                            "keyFile": "/etc/xray/xray.key"
+                        }
+                   }
+              }
+        ],
+        "outbounds": [
+            {
+                "protocol": "freedom"
+           }
+      ]
+}
