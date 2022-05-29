@@ -7,7 +7,7 @@ if [ "$(systemd-detect-virt)" == "openvz" ]; then
 		echo "OpenVZ is not supported"
 		exit 1
 fi
-# My Telegram : https://t.me/mardhex
+# My Telegram : https://t.me/sampiiiiu
 # ==========================================
 # Color
 RED='\033[0;31m'
@@ -225,12 +225,12 @@ echo "   - White Label" | tee -a log-install.txt
 echo "   - Installation Log --> /root/log-install.txt"  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
 echo "   - Dev/Main                : "  | tee -a log-install.txt
-echo "   - Recode                  : Indotunnel Project" | tee -a log-install.txt
-echo "   - Telegram                : T.me/lock_team"  | tee -a log-install.txt
+echo "   - Recode                  : Geo Project" | tee -a log-install.txt
+echo "   - Telegram                : T.me/sampiiiiu"  | tee -a log-install.txt
 echo "   - Instagram               : ~"  | tee -a log-install.txt
 echo "   - Whatsapp                : ~"  | tee -a log-install.txt
 echo "   - Facebook                : ~" | tee -a log-install.txt
-echo "-{--------🇮🇩Lᴼᶜᴷ Tᴱᴬᴹ🇮🇩-------}-" | tee -a log-install.txt
+echo "♤♤♤♤♤SOLO THE SPIRIT OF JAVA♤♤♤♤♤" | tee -a log-install.txt
 echo ""
 echo " Reboot 4 Sec"
 sleep 4
