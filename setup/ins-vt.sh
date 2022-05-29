@@ -21,7 +21,7 @@ chronyc tracking -v
 date
 root
 # install v2ray
-wget https://raw.githubusercontent.com/Manpokr/mon/main/setup/go.sh && chmod +x go.sh && ./go.sh
+wget https://raw.githubusercontent.com/indotunel/inc/main/setup/go.sh && chmod +x go.sh && ./go.sh
 rm -f /root/go.sh
 mkdir -p /etc/trojan
 bash -c "$(wget -q -O- https://raw.githubusercontent.com/trojan-gfw/trojan-quickstart/master/trojan-quickstart.sh)"
@@ -488,21 +488,21 @@ systemctl enable trojan
 systemctl restart v2ray
 systemctl enable v2ray
 cd /usr/bin
-wget -O addvmess "https://raw.githubusercontent.com/Manpokr/mon/main/add/addvmess.sh"
-wget -O addvless "https://raw.githubusercontent.com/Manpokr/mon/main/add/addvless.sh"
-wget -O addtrojan "https://raw.githubusercontent.com/Manpokr/mon/main/add/addtrojan.sh"
-wget -O delvmess "https://raw.githubusercontent.com/Manpokr/mon/main/del/delvmess.sh"
-wget -O delvless "https://raw.githubusercontent.com/Manpokr/mon/main/del/delvless.sh"
-wget -O deltrojan "https://raw.githubusercontent.com/Manpokr/mon/main/del/deltrojan.sh"
-wget -O cekvmess "https://raw.githubusercontent.com/Manpokr/mon/main/cek/cekvmess.sh"
-wget -O cekvless "https://raw.githubusercontent.com/Manpokr/mon/main/cek/cekvless.sh"
-wget -O cektrojan "https://raw.githubusercontent.com/Manpokr/mon/main/cek/cektrojan.sh"
-wget -O renewvmess "https://raw.githubusercontent.com/Manpokr/mon/main/renew/renewvmess.sh"
-wget -O renewvless "https://raw.githubusercontent.com/Manpokr/mon/main/renew/renewvless.sh"
-wget -O renewtrojan "https://raw.githubusercontent.com/Manpokr/mon/main/renew/renewtrojan.sh"
-wget -O trialvmess "https://raw.githubusercontent.com/Manpokr/mon/main/trial/trialvmess.sh"
-wget -O trialvless "https://raw.githubusercontent.com/Manpokr/mon/main/trial/trialvless.sh"
-wget -O trialtrojan "https://raw.githubusercontent.com/Manpokr/mon/main/trial/trialtrojan.sh"
+wget -O addvmess "https://raw.githubusercontent.com/indotunnel/inc/main/add/addvmess.sh"
+wget -O addvless "https://raw.githubusercontent.com/indotunnel/inc/main/add/addvless.sh"
+wget -O addtrojan "https://raw.githubusercontent.com/indotunnel/inc/main/add/addtrojan.sh"
+wget -O delvmess "https://raw.githubusercontent.com/indotunnel/inc/main/del/delvmess.sh"
+wget -O delvless "https://raw.githubusercontent.com/indotunnel/inc/main/del/delvless.sh"
+wget -O deltrojan "https://raw.githubusercontent.com/indotunel/inc/main/del/deltrojan.sh"
+wget -O cekvmess "https://raw.githubusercontent.com/indotunnel/inc/main/cek/cekvmess.sh"
+wget -O cekvless "https://raw.githubusercontent.com/indotunnel/inc/main/cek/cekvless.sh"
+wget -O cektrojan "https://raw.githubusercontent.com/indotunnel/inc/main/cek/cektrojan.sh"
+wget -O renewvmess "https://raw.githubusercontent.com/indotunnel/inc/main/renew/renewvmess.sh"
+wget -O renewvless "https://raw.githubusercontent.com/indotunnel/inc/main/renew/renewvless.sh"
+wget -O renewtrojan "https://raw.githubusercontent.com/indotunnel/inc/main/renew/renewtrojan.sh"
+wget -O trialvmess "https://raw.githubusercontent.com/indotunnel/inc/main/trial/trialvmess.sh"
+wget -O trialvless "https://raw.githubusercontent.com/indotunnel/inc/main/trial/trialvless.sh"
+wget -O trialtrojan "https://raw.githubusercontent.com/indotunnel/inc/main/trial/trialtrojan.sh"
 chmod +x addvmess
 chmod +x addvless
 chmod +x addtrojan
