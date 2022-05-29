@@ -24,8 +24,8 @@ chmod +x /usr/local/bin/websocket
 # Installing Service
 cat > /etc/systemd/system/websocket.service << END
 [Unit]
-Description=Python Proxy Mod By Mardhex
-Documentation=https://github.com/indotunnel/inc
+Description=Python Proxy Mod By geovpn
+Documentation=https://github.com/geovpn/vpn
 After=network.target nss-lookup.target
 
 [Service]
@@ -49,7 +49,7 @@ chmod +x /usr/local/bin/ws-ovpn
 cat > /etc/systemd/system/ws-ovpn.service << END
 [Unit]
 Description=SSHWS
-Documentation=https://github.com/indotunnel/inc
+Documentation=https://github.com/joysmart/vpn
 After=network.target nss-lookup.target
 
 [Service]
