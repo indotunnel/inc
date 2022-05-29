@@ -6,7 +6,7 @@ MYIP=$(wget -qO- ipinfo.io/ip);
 echo "Checking VPS"
 IZIN=$(curl -sS https://raw.githubusercontent.com/geovpn/perizinan/main/main/allow | awk '{print $4}' | grep $MYIP )
 if [[ $MYIP = $IZIN ]]; then
-$echo -e "${NC}${GREEN}Permission Accepted...${NC}"
+echo -e "${NC}${GREEN}Permission Accepted...${NC}"
 else
 echo -e "${NC}${RED}Permission Denied!${NC}";
 echo -e "${NC}${LIGHT}Please Contact Admin!!"
@@ -41,10 +41,10 @@ touch /var/lib/geovpn/data-user-sstp
 country=MY
 state=Indonesia
 locality=Indonesia
-organization=mdxcloud
-organizationalunit=mdxcloud
-commonname=mdxcloud
-email=indotunnel@gmail.com
+organization=geovpn
+organizationalunit=geovpn
+commonname=geovpn
+email=geovpn@gmail.com
 
 #install sstp
 apt-get install -y build-essential cmake gcc linux-headers-`uname -r` git libpcre3-dev libssl-dev liblua5.1-0-dev ppp

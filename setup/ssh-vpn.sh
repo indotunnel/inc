@@ -18,10 +18,10 @@ ver=$VERSION_ID
 country=ID
 state=Indonesia
 locality=Indonesia
-organization=mdxcloud
-organizationalunit=mdxcloud
-commonname=mdxcloud
-email=indotunnel@gmail.com
+organization=geovpn
+organizationalunit=geovpn
+commonname=geovpn
+email=geovpn@gmail.com
 
 # simple password minimal
 wget -O /etc/pam.d/common-password "https://raw.githubusercontent.com/indotunnel/inc/main/addon/password"

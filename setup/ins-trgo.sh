@@ -23,9 +23,9 @@ touch /etc/trojan-go/uuid.txt
 mkdir -p /etc/trojan-go/
 chmod 777 /etc/trojan-go/
 touch /etc/trojan-go/trojan-go.pid
-wget -O /etc/trojan-go/trojan-go https://raw.githubusercontent.com/indotunnel/inc/main/core/trojan-go
-wget -O /etc/trojan-go/geoip.dat https://raw.githubusercontent.com/indotunnel/inc/main/addon/geoip.dat
-wget -O /etc/trojan-go/geosite.dat https://raw.githubusercontent.com/indotunnel/inc/main/addon/geosite.dat
+wget -O /etc/trojan-go/trojan-go https://raw.githubusercontent.com/geovpn/mon/main/core/trojan-go
+wget -O /etc/trojan-go/geoip.dat https://raw.githubusercontent.com/geovpn/mon/main/addon/geoip.dat
+wget -O /etc/trojan-go/geosite.dat https://raw.githubusercontent.com/geovpn/mon/main/addon/geosite.dat
 chmod +x /etc/trojan-go/trojan-go
 cat <<EOF > /etc/trojan-go/config.json
 {
@@ -187,10 +187,10 @@ systemctl start trojan-go@
 
 #trojango
 cd /usr/bin
-wget -O addtrgo https://raw.githubusercontent.com/indotunnel/inc/main/add/addtrgo.sh
-wget -O cektrgo https://raw.githubusercontent.com/indotunnel/inc/main/cek/cektrgo.sh
-wget -O deltrgo https://raw.githubusercontent.com/indotunnel/inc/main/del/deltrgo.sh
-wget -O renewtrgo https://raw.githubusercontent.com/indotunnel/inc/main/renew/renewtrgo.sh
+wget -O addtrgo https://raw.githubusercontent.com/geovpn/mon/main/add/addtrgo.sh
+wget -O cektrgo https://raw.githubusercontent.com/geovpn/mon/main/cek/cektrgo.sh
+wget -O deltrgo https://raw.githubusercontent.com/geovpn/mon/main/del/deltrgo.sh
+wget -O renewtrgo https://raw.githubusercontent.com/geovpn/mon/main/renew/renewtrgo.sh
 
 chmod +x addtrgo
 chmod +x cektrgo

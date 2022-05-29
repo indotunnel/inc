@@ -12,10 +12,10 @@ ISP=$(curl -s ipinfo.io/org | cut -d " " -f 2-10 )
 CITY=$(curl -s ipinfo.io/city )
 sleep 1
         echo -e ""
-        echo -e "   \e[032;1mUPTIME:\e[0m $(neofetch | grep Uptime | cut -d " " -f 2-100)"
+        echo -e "   \e[032;1mUPTIME:\e[0m $(neofetch | grep Uptime | cut -d " " -f 2-100)" 
         echo -e "   \e[032;1mIsp Name:\e[0m $ISP"
         echo -e "   \e[032;1mCity:\e[0m $CITY"
-        echo -e "   \e[032;1mDOMAIN:\e[0m $(cat /etc/xray/domain)"
+        echo -e "   \e[032;1mDOMAIN:\e[0m $(cat /etc/xray/domain)" 
         echo -e "   \e[033;1mIPVPS :\e[0m $MYIP"
 echo -e  ""
 echo -e  "   -------------------------MENU OPTIONS------------------------"
