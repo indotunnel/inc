@@ -79,6 +79,6 @@ echo "----------------------------------------------";
         cat /tmp/vpn-login-udp.txt
 fi
 echo "----------------------------------------------";
-echo "Script By Mardhex"
+echo "Script By Manternet"
 echo "";
 

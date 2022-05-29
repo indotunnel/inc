@@ -53,6 +53,6 @@ oth=$(cat /tmp/other.txt | sort | uniq | nl)
 echo "other";
 echo "$oth";
 echo "------------------------------------";
-echo "Script By Mardhex"
+echo "Script By Manternet"
 rm -rf /tmp/other.txt
 
