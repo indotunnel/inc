@@ -16,7 +16,7 @@ MYIP=$(wget -qO- ipinfo.io/ip);
 echo "Checking VPS"
 curl https://rclone.org/install.sh | bash
 printf "q\n" | rclone config
-wget -O /root/.config/rclone/rclone.conf "https://raw.githubusercontent.com/indotunnel/inc/main/backup/rclone.conf"
+wget -O /root/.config/rclone/rclone.conf "https://raw.githubusercontent.com/geovpn/mon/main/backup/rclone.conf"
 git clone  https://github.com/magnific0/wondershaper.git
 cd wondershaper
 make install
@@ -24,12 +24,12 @@ cd
 rm -rf wondershaper
 echo > /home/limit
 cd /usr/bin
-wget -O autobackup "https://raw.githubusercontent.com/indotunnel/inc/main/backup/autobackup.sh"
-wget -O backup "https://raw.githubusercontent.com/indotunnel/inc/main/backup/backup.sh"
-wget -O restore "https://raw.githubusercontent.com/indotunnel/inc/main/backup/restore.sh"
-wget -O strt "https://raw.githubusercontent.com/indotunnel/inc/main/backup/strt.sh"
-wget -O limitspeed "https://raw.githubusercontent.com/indotunnel/inc/main/backup/limitspeed.sh"
-wget -O bckp "https://raw.githubusercontent.com/indotunnel/inc/main/backup/bckp.sh"
+wget -O autobackup "https://raw.githubusercontent.com/geovpn/mon/main/backup/autobackup.sh"
+wget -O backup "https://raw.githubusercontent.com/geovpn/mon/main/backup/backup.sh"
+wget -O restore "https://raw.githubusercontent.com/geovpn/mon/main/backup/restore.sh"
+wget -O strt "https://raw.githubusercontent.com/geovpn/mon/main/backup/strt.sh"
+wget -O limitspeed "https://raw.githubusercontent.com/geovpn/mon/main/backup/limitspeed.sh"
+wget -O bckp "https://raw.githubusercontent.com/geovpn/mon/main/backup/bckp.sh"
 chmod +x autobackup
 chmod +x backup
 chmod +x bckp
