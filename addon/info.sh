@@ -38,8 +38,8 @@ echo "   - Vless None TLS          : 6666"    | tee -a log-install.txt
 echo "   - Vless xtls              : 756"   | tee -a log-install.txt
 echo "   - Vless mKCP              : 6161"   | tee -a log-install.txt
 echo "   - trojan                  : 2089"   | tee -a log-install.txt
-echo "   - Vmess gRPC              : 443"   | tee -a log-install.txt
-echo "   - Vless gRPC              : 80"   | tee -a log-install.txt
+echo "   - Vmess gRPC              : 80"   | tee -a log-install.txt
+echo "   - Vless gRPC              : 880"   | tee -a log-install.txt
 echo " ---------------------------------------------------"
 echo "   - Websocket TLS           : 777"  | tee -a log-install.txt
 echo "   - Websocket None TLS      : 8880"  | tee -a log-install.txt
