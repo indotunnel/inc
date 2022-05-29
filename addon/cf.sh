@@ -11,11 +11,11 @@ touch /root/domain
 touch /etc/v2ray/domain
 touch /etc/xray/Domain
 apt install jq curl -y
-DOMAIN=mdxcloud.net
+DOMAIN=sumbawa.me
 sub=$(</dev/urandom tr -dc a-z0-9 | head -c4)
-SUB_DOMAIN=${sub}.mdxcloud.net
-CF_ID=wapres.area82@gmail.com
-CF_KEY=969358ac89854750453bdbdbd72d18ddcd5c9
+SUB_DOMAIN=${sub}.sumbawa.me
+CF_ID=paoandest@gmail.com
+CF_KEY=1d158d0efc4eef787222cefff0b6d20981462
 set -euo pipefail
 IP=$(wget -qO- ipinfo.io/ip);
 echo "Updating DNS for ${SUB_DOMAIN}..."

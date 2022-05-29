@@ -1,7 +1,7 @@
 #!/bin/bash
 clear
 echo -e "==========================================="
-echo -e "        AutoScript VPN By Mardhex         "
+echo -e "        AutoScript VPN By Geo Project        "
 echo -e "==========================================="
 echo -e "This Script Is Using 4 Cores"
 echo -e "Services That Available :"
@@ -21,5 +21,5 @@ echo -e "OHP OPenVPN & SSH"
 echo -e "Wireguard"
 echo -e "Webmin"
 echo -e "==========================================="
-echo -e "         Telegram : t.me/Mardhex         "
+echo -e "         Telegram : t.me/sampiiiiu         "
 echo -e "==========================================="

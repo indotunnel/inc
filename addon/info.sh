@@ -7,7 +7,7 @@ GREEN='\033[0;32m'
 clear
 neofetch
 echo " "
-echo "♤♤♤♤Script Install Vpn By Mardhex♤♤♤♤" | tee -a log-install.txt
+echo "♤♤♤♤Script Install Vpn By Geo Project♤♤♤♤" | tee -a log-install.txt
 echo "" | tee -a log-install.txt
 echo "♤♤♤♤♤♤♤♤♤♤♤♤♤♤♤♤♤♤♤♤♤♤♤♤♤♤♤" | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
@@ -65,11 +65,11 @@ echo "   - White Label" | tee -a log-install.txt
 echo "   - Installation Log --> /root/log-install.txt"  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
 echo "   - Dev/Main                : "  | tee -a log-install.txt
-echo "   - Recode                  : Indotunnel Project" | tee -a log-install.txt
-echo "   - Telegram                : T.me/Mardhex"  | tee -a log-install.txt
+echo "   - Recode                  : Geo Project" | tee -a log-install.txt
+echo "   - Telegram                : T.me/sampiiiiu"  | tee -a log-install.txt
 echo "   - Instagram               : ~"  | tee -a log-install.txt
 echo "   - Whatsapp                : ~"  | tee -a log-install.txt
 echo "   - Facebook                : ~" | tee -a log-install.txt
-echo "♤♤♤♤♤Mardhex♤♤♤♤♤" | tee -a log-install.txt
+echo "♤♤♤♤♤SOLO THE SPIRIT OF JAVA♤♤♤♤♤" | tee -a log-install.txt
 echo ""
 echo ""
