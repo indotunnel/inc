@@ -7,7 +7,7 @@ GREEN='\033[0;32m'
 clear
 neofetch
 echo " "
-echo "♤♤♤♤Script Install Vpn By Geo Project♤♤♤♤" | tee -a log-install.txt
+echo "♤♤♤♤Script Install Vpn By Gembox♤♤♤♤" | tee -a log-install.txt
 echo "" | tee -a log-install.txt
 echo "♤♤♤♤♤♤♤♤♤♤♤♤♤♤♤♤♤♤♤♤♤♤♤♤♤♤♤" | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
@@ -66,10 +66,10 @@ echo "   - Installation Log --> /root/log-install.txt"  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
 echo "   - Dev/Main                : "  | tee -a log-install.txt
 echo "   - Recode                  : Geo Project" | tee -a log-install.txt
-echo "   - Telegram                : T.me/sampiiiiu"  | tee -a log-install.txt
+echo "   - Telegram                : T.me/Gembox"  | tee -a log-install.txt
 echo "   - Instagram               : ~"  | tee -a log-install.txt
 echo "   - Whatsapp                : ~"  | tee -a log-install.txt
 echo "   - Facebook                : ~" | tee -a log-install.txt
-echo "♤♤♤♤♤SOLO THE SPIRIT OF JAVA♤♤♤♤♤" | tee -a log-install.txt
+echo "♤♤♤♤♤Gembox♤♤♤♤♤" | tee -a log-install.txt
 echo ""
 echo ""
