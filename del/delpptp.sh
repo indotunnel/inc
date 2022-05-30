@@ -1,5 +1,5 @@
 #!/bin/bash
-# My Telegram : https://t.me/geovpn
+# My Telegram : https://t.me/Gembox
 # ==========================================
 # Color
 RED='\033[0;31m'
@@ -115,4 +115,4 @@ echo "=========================="
 echo "Username  : $VPN_USER"
 echo "Expired   : $exp"
 echo "=========================="
-echo "Script By geovpn"
+echo "Script By Gembox"

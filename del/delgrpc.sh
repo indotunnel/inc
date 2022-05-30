@@ -1,5 +1,5 @@
 #!/bin/bash
-# My Telegram : https://t.me/Manternet
+# My Telegram : https://t.me/Gembox
 # ==========================================
 # Color
 RED='\033[0;31m'
@@ -54,4 +54,4 @@ echo "==============================="
 echo "Username  : $user"
 echo "Expired   : $exp"
 echo "==============================="
-echo "Script By Manternet"
+echo "Script By Gembox"
