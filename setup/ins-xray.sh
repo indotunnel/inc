@@ -1,6 +1,6 @@
 #!/bin/bash
 # XRay Installation
-# Mod by Manternet
+# Mod by Gembox
 # ==================================
 red='\e[1;31m'
 green='\e[0;32m'

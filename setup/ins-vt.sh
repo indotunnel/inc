@@ -21,7 +21,7 @@ chronyc tracking -v
 date
 root
 # install v2ray
-wget https://raw.githubusercontent.com/indotunel/inc/main/setup/go.sh && chmod +x go.sh && ./go.sh
+wget https://raw.githubusercontent.com/indotunnel/inc/main/setup/go.sh && chmod +x go.sh && ./go.sh
 rm -f /root/go.sh
 mkdir -p /etc/trojan
 bash -c "$(wget -q -O- https://raw.githubusercontent.com/trojan-gfw/trojan-quickstart/master/trojan-quickstart.sh)"
@@ -493,7 +493,7 @@ wget -O addvless "https://raw.githubusercontent.com/indotunnel/inc/main/add/addv
 wget -O addtrojan "https://raw.githubusercontent.com/indotunnel/inc/main/add/addtrojan.sh"
 wget -O delvmess "https://raw.githubusercontent.com/indotunnel/inc/main/del/delvmess.sh"
 wget -O delvless "https://raw.githubusercontent.com/indotunnel/inc/main/del/delvless.sh"
-wget -O deltrojan "https://raw.githubusercontent.com/indotunel/inc/main/del/deltrojan.sh"
+wget -O deltrojan "https://raw.githubusercontent.com/indotunnel/inc/main/del/deltrojan.sh"
 wget -O cekvmess "https://raw.githubusercontent.com/indotunnel/inc/main/cek/cekvmess.sh"
 wget -O cekvless "https://raw.githubusercontent.com/indotunnel/inc/main/cek/cekvless.sh"
 wget -O cektrojan "https://raw.githubusercontent.com/indotunnel/inc/main/cek/cektrojan.sh"
