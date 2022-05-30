@@ -13,7 +13,7 @@ clear
 read -p "Username   : " username
 read -p "Expired    : " expired
 read -p "SNI (BUG)  : " sni
-read -p "Subdomain (EXP : manternet.xyz. / Press Enter If Only Using Hosts) : " sub
+read -p "Subdomain (EXP : mdxcloud.net. / Press Enter If Only Using Hosts) : " sub
 dom=$sub$domain
 domain=$(cat /root/domain)
 uuid=$(cat /proc/sys/kernel/random/uuid)

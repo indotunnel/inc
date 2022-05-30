@@ -106,5 +106,5 @@ echo -e "Expired  : $exp"
 echo -e "======================="
 echo -e "Link WG  : http://$MYIP:89/$CLIENT_NAME.conf"
 echo -e "======================="
-echo -e "Script By Manternet"
+echo -e "Script By Gembox"
 rm -f /root/wg0-client-$CLIENT_NAME.conf

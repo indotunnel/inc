@@ -1,5 +1,5 @@
 #!/bin/bash
-# My Telegram : https://t.me/geovpn
+# My Telegram : https://t.me/Gembox
 # ━━━━━━━━━━━━━━━━━━━━━==============
 # Color
 RED='\033[0;31m'
@@ -79,5 +79,5 @@ Password   : $VPN_PASSWORD
 Created    : $hariini
 Expired    : $exp
 ━━━━━━━━━━━━━━━━━━━━━
-Script By geovpn
+Script By Gembox
 EOF
