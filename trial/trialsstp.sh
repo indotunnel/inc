@@ -109,5 +109,5 @@ Cert      : http://$IP:89/server.crt
 Created   : $hariini
 Expired   : $exp
 ============================
-Script By geovpn
+Script By Gembox
 EOF

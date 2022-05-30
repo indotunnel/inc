@@ -116,5 +116,5 @@ Password  : $VPN_PASSWORD
 Created   : $hariini
 Expired   : $exp
 ━━━━━━━━━━━━━━━━━━━━━
-Script By geovpn
+Script By Gembox
 EOF
