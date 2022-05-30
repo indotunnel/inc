@@ -1,7 +1,7 @@
 #!/bin/bash
 clear
-echo -e "                   ═══[TRIAL MENU]═══            " | lolcat
-echo -e "     \e[32m══════════════════════════════\e[m" | lolcat
+echo -e "                   ═══[TRIAL MENU]═══            "
+echo -e "     \e[32m══════════════════════════════\e[m"
 echo " 1)= >> Create TRial XRay VMess Accounts                         
 echo " 2)= >> Create TRial XRay VLess Accounts                      
 echo " 3)= >> Create TRial XRay Trojan Accounts                      
