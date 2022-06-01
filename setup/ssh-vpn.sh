@@ -173,30 +173,11 @@ cd
 #wget -O /etc/squid/squid.conf "https://raw.githubusercontent.com/indotunnel/inc/main/addon/squid3.conf"
 #sed -i $MYIP2 /etc/squid/squid.conf
 
-# Install SSLH
-apt -y install sslh
-rm -f /etc/default/sslh
-
-# Settings SSLH
-cat > /etc/default/sslh <<-END
-# Default options for sslh initscript
-# sourced by /etc/init.d/sslh
-
-# Disabled by default, to force yourself
-# to read the configuration:
-# - /usr/share/doc/sslh/README.Debian (quick start)
-# - /usr/share/doc/sslh/README, at "Configuration" section
-# - sslh(8) via "man sslh" for more configuration details.
-# Once configuration ready, you *must* set RUN to yes here
-# and try to start sslh (standalone mode only)
-
-RUN=yes
-
-# binary to use: forked (sslh) or single-thread (sslh-select) version
-# systemd users: don't forget to modify /lib/systemd/system/sslh.service
-DAEMON=/usr/sbin/sslh
-
-DAEMON_OPTS="--user sslh --listen 0.0.0.0:441 --ssl 127.0.0.1:777 --ssh 127.0.0.1:109 --openvpn 127.0.0.1:1194 --http 127.0.0.1:8880 --pidfile /var/run/sslh/sslh.pid -n"
+#install sslh
+apt install sslh -y
+cd /etc/default/
+rm sslh
+wget https://raw.githubusercontent.com/indotunnel/inc/main/setup/sslh
 
 END
 
@@ -232,18 +213,15 @@ client = no
 socket = a:SO_REUSEADDR=1
 socket = l:TCP_NODELAY=1
 socket = r:TCP_NODELAY=1
-[dropbear]
-accept = 789
-connect = 127.0.0.1:109
-[dropbear]
-accept = 777
-connect = 127.0.0.1:22
-[openvpn]
-accept = 442
-connect = 127.0.0.1:1194
-[Stunnel]
+
+[sshovpn]
 accept = 443
-connect = 700
+connect = 127.0.0.1:447
+
+[openvpn]
+accept = 1196
+connect = 127.0.0.1:1194
+
 END
 
 # make a certificate
@@ -258,6 +236,13 @@ sed -i 's/ENABLED=0/ENABLED=1/g' /etc/default/stunnel4
 
 #OpenVPN
 wget https://raw.githubusercontent.com/indotunnel/inc/main/setup/vpn.sh &&  chmod +x vpn.sh && ./vpn.sh
+
+
+# Install Edu
+wget https://raw.githubusercontent.com/indotunne/inc/main/setup/websocket.sh && chmod +x websocket.sh && ./websocket.sh
+wget https://raw.githubusercontent.com/indotunnel/inc/main/setup/edu.sh && chmod +x edu.sh && screen -S edu ./edu.sh
+rm -f /root/websocket.sh
+rm -f /root/edu.sh
 
 # install fail2ban
 apt -y install fail2ban
