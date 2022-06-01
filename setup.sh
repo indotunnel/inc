@@ -81,10 +81,10 @@ wget https://raw.githubusercontent.com/indotunnel/inc/main/backup/set-br.sh
 chmod +x set-br.sh 
 ./set-br.sh
 
-# Websocket
-#wget https://raw.githubusercontent.com/indotunnel/inc/main/websocket/ws.sh
-#chmod +x ws.sh
-#./ws.sh 
+#Websocket
+wget https://raw.githubusercontent.com/indotunnel/inc/main/websocket/ws.sh
+chmod +x ws.sh
+./ws.sh 
 
 #OHP 
 wget https://raw.githubusercontent.com/indotunnel/inc/main/setup/ohp.sh
@@ -198,8 +198,8 @@ echo "   - Vless None TLS          : 6666"    | tee -a log-install.txt
 echo "   - Vless xtls              : 756"   | tee -a log-install.txt
 echo "   - Vless mKCP              : 6161"   | tee -a log-install.txt
 echo "   - trojan                  : 2089"   | tee -a log-install.txt
-echo "   - Vmess gRPC              : 880"   | tee -a log-install.txt
-echo "   - Vless gRPC              : 882"   | tee -a log-install.txt
+echo "   - Vmess gRPC              : 80"   | tee -a log-install.txt
+echo "   - Vless gRPC              : 443"   | tee -a log-install.txt
 echo " ---------------------------------------------------------------------
 echo "   - Websocket TLS           : 777"  | tee -a log-install.txt
 echo "   - Websocket None TLS      : 8880"  | tee -a log-install.txt
