@@ -174,10 +174,10 @@ cd
 #sed -i $MYIP2 /etc/squid/squid.conf
 
 #install sslh
-apt install sslh -y
-cd /etc/default/
-rm sslh
-wget https://raw.githubusercontent.com/indotunnel/inc/main/setup/sslh
+#apt install sslh -y
+#cd /etc/default/
+#rm sslh
+#wget https://raw.githubusercontent.com/indotunnel/inc/main/setup/sslh
 
 END
 
