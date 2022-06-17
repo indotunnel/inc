@@ -182,11 +182,11 @@ cd
 END
 
 # Restart Service SSLH
-service sslh restart
-systemctl restart sslh
-/etc/init.d/sslh restart
-/etc/init.d/sslh status
-/etc/init.d/sslh restart
+#service sslh restart
+#systemctl restart sslh
+#/etc/init.d/sslh restart
+#/etc/init.d/sslh status
+#/etc/init.d/sslh restart
 
 # setting vnstat
 apt -y install vnstat
@@ -214,12 +214,20 @@ socket = a:SO_REUSEADDR=1
 socket = l:TCP_NODELAY=1
 socket = r:TCP_NODELAY=1
 
-[sshovpn]
+[stunnelws]
 accept = 443
-connect = 127.0.0.1:447
+connect = 127.0.0.1:2053
+
+[dropbear]
+accept = 222
+connect = 127.0.0.1:22
+
+[dropbear]
+accept = 777
+connect = 127.0.0.1:22
 
 [openvpn]
-accept = 1196
+accept = 442
 connect = 127.0.0.1:1194
 
 END
