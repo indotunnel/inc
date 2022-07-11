@@ -762,7 +762,7 @@ cat > /etc/xray/vmessgrpc.json << END
     },
     "inbounds": [
         {
-            "port": 8080,
+            "port": 80,
             "protocol": "vmess",
             "settings": {
                 "clients": [
