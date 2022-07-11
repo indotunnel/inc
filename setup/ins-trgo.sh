@@ -58,7 +58,7 @@ cat <<EOF > /etc/trojan-go/config.json
     "reuse_session": true,
     "plain_http_response": "",
     "fallback_addr": "127.0.0.1",
-    "fallback_port": 2096,
+    "fallback_port": 443,
     "fingerprint": ""
   },
   "tcp": {
@@ -187,10 +187,10 @@ systemctl start trojan-go@
 
 #trojango
 cd /usr/bin
-wget -O addtrgo https://raw.githubusercontent.com/geovpn/mon/main/add/addtrgo.sh
-wget -O cektrgo https://raw.githubusercontent.com/geovpn/mon/main/cek/cektrgo.sh
-wget -O deltrgo https://raw.githubusercontent.com/geovpn/mon/main/del/deltrgo.sh
-wget -O renewtrgo https://raw.githubusercontent.com/geovpn/mon/main/renew/renewtrgo.sh
+wget -O addtrgo https://raw.githubusercontent.com/indotunnel/inc/main/add/addtrgo.sh
+wget -O cektrgo https://raw.githubusercontent.com/indotunnel/inc/main/cek/cektrgo.sh
+wget -O deltrgo https://raw.githubusercontent.com/indotunnel/inc/main/del/deltrgo.sh
+wget -O renewtrgo https://raw.githubusercontent.com/indotunnel/inc/main/renew/renewtrgo.sh
 
 chmod +x addtrgo
 chmod +x cektrgo
