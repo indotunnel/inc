@@ -31,7 +31,7 @@ cat <<EOF > /etc/trojan-go/config.json
 {
     "run_type": "server",
     "local_addr": "0.0.0.0",
-    "local_port": 2096,
+    "local_port": 443,
     "remote_addr": "127.0.0.1",
     "remote_port": 89,
     "log_level": 1,
@@ -83,7 +83,7 @@ cat <<EOF > /etc/trojan-go/config.json
   },
   "websocket": {
     "enabled": true,
-    "path": "/TrGo",
+    "path": "/MDXCloud",
     "host": "$sni"
   },
   "shadowsocks": {
