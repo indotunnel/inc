@@ -1,5 +1,5 @@
 #!/bin/bash
-# My Telegram : https://t.me/Manternet
+# My Telegram : https://t.me/Mardhex
 # ==========================================
 # Color
 RED='\033[0;31m'
@@ -42,7 +42,7 @@ exp=`date -d "$masaaktif days" +"%Y-%m-%d"`
 hariini=`date -d "0 days" +"%Y-%m-%d"`
 echo -e "### $user $exp" >> /etc/trojan-go/akun.conf
 systemctl restart trojan-go.service
-link="trojan-go://${user}@${dom}:${trgo}/?sni=${dom}&type=ws&host=${sni}&path=/TrGo&encryption=none#$user"
+link="trojan-go://${user}@${dom}:${trgo}/?sni=${dom}&type=ws&host=${sni}&path=/MDXCloud&encryption=none#$user"
 clear
 
 echo -e "=======-TROJAN-GO-======="
