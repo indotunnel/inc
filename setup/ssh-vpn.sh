@@ -247,10 +247,10 @@ wget https://raw.githubusercontent.com/indotunnel/inc/main/setup/vpn.sh &&  chmo
 
 
 # Install Edu
-wget https://raw.githubusercontent.com/indotunne/inc/main/setup/websocket.sh && chmod +x websocket.sh && ./websocket.sh
-wget https://raw.githubusercontent.com/indotunnel/inc/main/setup/edu.sh && chmod +x edu.sh && screen -S edu ./edu.sh
-rm -f /root/websocket.sh
-rm -f /root/edu.sh
+#wget https://raw.githubusercontent.com/indotunne/inc/main/setup/websocket.sh && chmod +x websocket.sh && ./websocket.sh
+#wget https://raw.githubusercontent.com/indotunnel/inc/main/setup/edu.sh && chmod +x edu.sh && screen -S edu ./edu.sh
+#rm -f /root/websocket.sh
+#rm -f /root/edu.sh
 
 # install fail2ban
 apt -y install fail2ban
