@@ -31,7 +31,7 @@ cat <<EOF > /etc/trojan-go/config.json
 {
     "run_type": "server",
     "local_addr": "0.0.0.0",
-    "local_port": 443,
+    "local_port": 2096,
     "remote_addr": "127.0.0.1",
     "remote_port": 89,
     "log_level": 1,
@@ -58,7 +58,7 @@ cat <<EOF > /etc/trojan-go/config.json
     "reuse_session": true,
     "plain_http_response": "",
     "fallback_addr": "127.0.0.1",
-    "fallback_port": 443,
+    "fallback_port": 2096,
     "fingerprint": ""
   },
   "tcp": {
