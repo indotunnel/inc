@@ -82,9 +82,9 @@ chmod +x set-br.sh
 ./set-br.sh
 
 #Websocket
-wget https://raw.githubusercontent.com/indotunnel/inc/main/websocket/ws.sh
-chmod +x ws.sh
-./ws.sh 
+#wget https://raw.githubusercontent.com/indotunnel/inc/main/websocket/ws.sh
+#chmod +x ws.sh
+#./ws.sh 
 
 #OHP 
 wget https://raw.githubusercontent.com/indotunnel/inc/main/setup/ohp.sh
@@ -179,7 +179,7 @@ echo "   - Dropbear                : 109"   | tee -a log-install.txt
 echo "   - Privoxy                 : 3000'       | tee -a log-install.txt
 echo "   - Squid Proxy             : 3128, 8080" | tee -a log-install.txt
 echo "   - Badvpn                  : 7100, 7200, 7300-7900"  | tee -a log-install.txt
-echo "   - TROJAN-GO               : 443"  | tee -a log-install.txt
+echo "   - TROJAN-GO               : 2096"  | tee -a log-install.txt
 echo "   - WIREGUARD               : 7070" | tee -a log-install.txt
 echo "   - SHADOWSOCKS-R           : 1443"  | tee -a log-install.txt
 echo "   - SS-OBFS TLS             : 8488"  | tee -a log-install.txt
@@ -198,8 +198,8 @@ echo "   - Vless None TLS          : 6666"    | tee -a log-install.txt
 echo "   - Vless xtls              : 756"   | tee -a log-install.txt
 echo "   - Vless mKCP              : 6161"   | tee -a log-install.txt
 echo "   - trojan                  : 2089"   | tee -a log-install.txt
-echo "   - Vmess gRPC              : 880"   | tee -a log-install.txt
-echo "   - Vless gRPC              : 80"   | tee -a log-install.txt
+echo "   - Vmess gRPC              : 80"   | tee -a log-install.txt
+echo "   - Vless gRPC              : 443"   | tee -a log-install.txt
 echo " ---------------------------------------------------------------------
 echo "   - Websocket TLS           : 777"  | tee -a log-install.txt
 echo "   - Websocket None TLS      : 8880"  | tee -a log-install.txt
