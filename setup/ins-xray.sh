@@ -812,7 +812,7 @@ cat > /etc/xray/vlessgrpc.json << END
     },
     "inbounds": [
         {
-            "port": 443,
+            "port": 880,
             "protocol": "vless",
             "settings": {
                 "clients": [
