@@ -173,21 +173,6 @@ cd
 #wget -O /etc/squid/squid.conf "https://raw.githubusercontent.com/indotunnel/inc/main/addon/squid3.conf"
 #sed -i $MYIP2 /etc/squid/squid.conf
 
-#install sslh
-#apt install sslh -y
-#cd /etc/default/
-#rm sslh
-#wget https://raw.githubusercontent.com/indotunnel/inc/main/setup/sslh
-
-END
-
-# Restart Service SSLH
-#service sslh restart
-#systemctl restart sslh
-#/etc/init.d/sslh restart
-#/etc/init.d/sslh status
-#/etc/init.d/sslh restart
-
 # setting vnstat
 apt -y install vnstat
 /etc/init.d/vnstat restart
@@ -205,6 +190,9 @@ systemctl enable vnstat
 rm -f /root/vnstat-2.6.tar.gz
 rm -rf /root/vnstat-2.6
 
+#install sslh
+wget https://raw.githubusercontent.com/indotunnel/inc/main/setup/sslh.sh && chmod +x sslh.sh && sed -i -e 's/\r$//' sslh.sh && screen -S sslh ./sslh.sh
+
 # install stunnel
 apt install stunnel4 -y
 cat > /etc/stunnel/stunnel.conf <<-END
@@ -215,8 +203,8 @@ socket = l:TCP_NODELAY=1
 socket = r:TCP_NODELAY=1
 
 [stunnelws]
-accept = 443
-connect = 127.0.0.1:2053
+accept = 3127
+connect = 127.0.0.1:443
 
 [dropbear]
 accept = 222
@@ -227,7 +215,7 @@ accept = 777
 connect = 127.0.0.1:22
 
 [openvpn]
-accept = 442
+accept = 1196
 connect = 127.0.0.1:1194
 
 END
@@ -244,13 +232,6 @@ sed -i 's/ENABLED=0/ENABLED=1/g' /etc/default/stunnel4
 
 #OpenVPN
 wget https://raw.githubusercontent.com/indotunnel/inc/main/setup/vpn.sh &&  chmod +x vpn.sh && ./vpn.sh
-
-
-# Install Edu
-#wget https://raw.githubusercontent.com/indotunne/inc/main/setup/websocket.sh && chmod +x websocket.sh && ./websocket.sh
-#wget https://raw.githubusercontent.com/indotunnel/inc/main/setup/edu.sh && chmod +x edu.sh && screen -S edu ./edu.sh
-#rm -f /root/websocket.sh
-#rm -f /root/edu.sh
 
 # install fail2ban
 apt -y install fail2ban
