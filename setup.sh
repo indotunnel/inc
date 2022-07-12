@@ -180,7 +180,7 @@ echo "   - Dropbear                : 109"   | tee -a log-install.txt
 echo "   - Privoxy                 : 3000'       | tee -a log-install.txt
 echo "   - Squid Proxy             : 3128, 8000" | tee -a log-install.txt
 echo "   - Badvpn                  : 7100, 7200, 7300-7900"  | tee -a log-install.txt
-echo "   - TROJAN-GO               : 443"  | tee -a log-install.txt
+echo "   - TROJAN-GO               : 2096"  | tee -a log-install.txt
 echo "   - WIREGUARD               : 7070" | tee -a log-install.txt
 echo "   - SHADOWSOCKS-R           : 1443"  | tee -a log-install.txt
 echo "   - SS-OBFS TLS             : 8488"  | tee -a log-install.txt
@@ -202,7 +202,7 @@ echo "   - trojan                  : 2089"   | tee -a log-install.txt
 echo "   - Vmess gRPC              : 80"   | tee -a log-install.txt
 echo "   - Vless gRPC              : 880"   | tee -a log-install.txt
 echo " ---------------------------------------------------------------------
-echo "   - Websocket TLS           : 777"  | tee -a log-install.txt
+echo "   - Websocket TLS           : 443"  | tee -a log-install.txt
 echo "   - Websocket None TLS      : 8080"  | tee -a log-install.txt
 echo "   - Websocket Ovpn          : 2086"  | tee -a log-install.txt
 echo "   - OHP SSH                 : 8181"  | tee -a log-install.txt
