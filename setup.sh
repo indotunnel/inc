@@ -202,7 +202,7 @@ echo "   - trojan                  : 2089"   | tee -a log-install.txt
 echo "   - Vmess gRPC              : 80"   | tee -a log-install.txt
 echo "   - Vless gRPC              : 880"   | tee -a log-install.txt
 echo " ---------------------------------------------------------------------
-echo "   - Websocket TLS           : 443"  | tee -a log-install.txt
+echo "   - Websocket TLS           : 777"  | tee -a log-install.txt
 echo "   - Websocket None TLS      : 8080"  | tee -a log-install.txt
 echo "   - Websocket Ovpn          : 2086"  | tee -a log-install.txt
 echo "   - OHP SSH                 : 8181"  | tee -a log-install.txt
